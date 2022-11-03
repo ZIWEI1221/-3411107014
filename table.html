@@ -8,7 +8,7 @@
 </head>
 <body>
     <h4>html表格</h4>
-    <table border="1" align="center" cellpadding="5" cellpadding="0" width="300">
+    <table border="1" align="center" cellpadding="10" cellpadding="5" width="300">
         <tr>
             <td align="center">1</td>
             <td align="center">2</td>
@@ -27,28 +27,29 @@
     </table>
     <br>
     <h4>table表格(垂直合併)</h4>
-    <table border="1" width="300" align="center" cellpadding="0" cellpadding="0">
+    <table border="1" align="center" cellpadding="0" cellpadding="0" width="300">
         <tr>
             <td colspan="3">001</td>
         </tr>
         <tr>
-            <td align="center">001</td>
-            <td align="center">002</td>
-            <td align="center">003</td>
+            <td >001</td>
+            <td >002</td>
+            <td >003</td>
         </tr>
         <tr>
-            <td align="center">001</td>
-            <td align="center">001</td>
-            <td align="center">001</td>
+            <td >001</td>
+            <td >002</td>
+            <td >003</td>
         </tr>
         </table>
         <br>
         <h4>table表格(水平合併)</h4>
-        <table border="1" width="300" align="center" cellpadding="0" cellpadding="0">
+        <table border="1" align="center" cellpadding="0" cellpadding="0" width="300">
             <tr>
-                <td >001</td>
+                <td rowspan="3">001</td>
                 <td >002</td>
-                <td >003</td> 
+                <td >003</td>
+                <td >003</td>
             </tr>
             <tr>
                 <td >001</td>
@@ -63,27 +64,38 @@
             </table>
             <br>
             <h4>table表格(兩種合併)</h4>
-            <table border="1" width="300" align="center" cellpadding="0" cellpadding="0">
+            <table border="1" align="center" cellpadding="0" cellpadding="0" width="300">
                 <tr>
-                    <td colspan="3">1</td> 
+                    <td colspan="3">001</td> 
                 </tr>
                 <tr>
-                    <td rowspan="2">2</td>
-                    <td colspan="2">3</td>
+                    <td rowspan="2">001</td>
+                    <td colspan="2">002</td>
                 </tr>
                 <tr>
-                    <td>2</td>
-                    <td>3</td>
+                    <td >001</td>
+                    <td >002</td>
+                </tr>
             </table>
             <br>
-            <h4>html表格(加分題)</h4>>
-            <table border="1" width="300" align="center" cellpadding="0" cellpadding="0">
-                <tr>
-                    <td>班級</td>
-                </tr>
-            </table>
-            
-           
-         
+           <h4>table表格(加分題)</h4>
+           <table border="1" align="center" cellpadding="0" cellspacing="5" width="300">
+            <tr>
+                <td  align="center" colspan="3" >表格</td>
+            </tr>
+            <tr>
+                <td align="center" rowspan="4" >  <img src="https://fakeimg.pl/100x100/00CED1" ></td  >
+                    <td align="center">班級</td>
+                    <td align="center">休閒一A</td>
+
+            </tr>
+            <tr>
+                <td align="center">姓名</td>
+                <td align="center">楊子緯</td>
+            </tr>
+            <tr>
+                <td align="center">學號</td>
+                <td align="center">3411107014</td>
+            </tr>
 </body>
 </html>
